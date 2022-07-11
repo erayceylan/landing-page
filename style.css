@@ -163,13 +163,21 @@ a {
     align-items: flex-end;
     background-color: rgba(220, 20, 60, 0.5);
     padding:36px;
-    font-style: italic;
     color:white;
 }
 
 .content-middle .text-2 {
-    font-style: normal;
     color: black;
+}
+
+.reality {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
+
+.reality:hover {
+    background-color: crimson;
 }
 
 /* BOTTOM-CONTENT */
