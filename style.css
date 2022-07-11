@@ -46,22 +46,22 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 36px;
+    margin-bottom: 12px;
 }
 
 .container {
     display: flex;
-    margin-bottom: 60px;
+    margin-bottom: 12px;
     justify-content: space-between;
 }
 
 .content {
-    width: 180px;
+    width: 200px;
     display: flex;
     flex-direction: column;
 }
 
-.text {
+.content .text {
     margin-bottom: auto;
 }
 .slogan {
@@ -92,19 +92,61 @@ a {
     color: white;
 }
 
-img {
-    width: 240px;
-    height: auto;
-    border: 2px solid red;
-}
-
 button {
     font-family: 'Robot Mono', monospace;
     font-size: 12px;
     font-weight: bold;
-    color: white;
-    background-color: red;
-    border: 1px solid orangered;
+    color: crimson;
+    background-color: white;
+    border: 1px solid crimson;
     padding: 6px 12px;
     border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+#robbery {
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+}
+
+/* TOP-CONTENT */
+
+.content-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.content-top .text {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: crimson;
+    margin-bottom: 16px;
+}
+
+.social-media {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-media .text {
+    color:black;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    width: 108px;
+}
+
+.social-logo {
+    height: 72px;
+    width: auto;
+}
+
+.instagram,
+.twitter,
+.facebook {
+    margin:16px;
 }
