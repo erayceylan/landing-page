@@ -113,6 +113,11 @@ a {
     border: 2px solid red;
 }
 
+.about:hover {
+    background-color: white;
+    color: crimson;
+}
+
 /* TOP-CONTENT */
 
 .content-top {
