@@ -22,6 +22,7 @@ body {
 .footer {
     text-align: center;
     background-color: crimson;
+    box-sizing: border-box;
     color: white;
     padding: 16px;
     font-size: 8px;
